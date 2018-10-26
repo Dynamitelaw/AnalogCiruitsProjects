@@ -1,0 +1,13 @@
+* C:\Users\noobe\Documents\AnalogCiruitsProjects\Draft1.asc
+M1 N001 N002 0 0 NMOSPLEASE
+M2 0 0 0 0 PMOSn
+V1 N002 0 2
+R1 VDD N001 10k
+V2 VDD 0 5
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\noobe\Documents\LTspiceXVII\lib\cmp\standard.mos
+.op
+.include NMOSPLEASE.MOD
+.backanno
+.end

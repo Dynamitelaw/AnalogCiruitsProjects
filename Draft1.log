@@ -1,0 +1,46 @@
+Circuit: * C:\Users\noobe\Documents\AnalogCiruitsProjects\Draft1.asc
+
+M2: all pins shorted together -- ignoring.
+Error on line 2 : m1 n001 n002 0 0 nmosplease
+	 Unable to find definition of model ""
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- MOSFET Transistors ---
+Name:          m1
+Model:          M
+Id:          4.00e-05
+Vgs:         2.00e+00
+Vds:         4.60e+00
+Vbs:         0.00e+00
+Vth:         0.00e+00
+Vdsat:       2.00e+00
+Gm:          4.00e-05
+Gds:         0.00e+00
+Gmb:         0.00e+00
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       0.00e+00
+Cgdov:       0.00e+00
+Cgbov:       0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cgb:         0.00e+00
+
+
+
+Date: Fri Oct 26 15:33:39 2018
+Total elapsed time: 2.074 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 4
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 114 bytes object code size
+Matrix Compiler2: 301 bytes object code size
