@@ -1,0 +1,16 @@
+* C:\Users\noobe\Documents\AnalogCiruitsProjects\ProjectTestSchematic.asc
+M1 N002 N003 0 0 CMOSN w=2u l=1u
+M2 N004 N001 0 0 CMOSP w=2u l=1u
+V1 N003 0 1.6
+R1 VDD N002 1
+V2 VDD 0 10
+V3 N001 0 -2
+V4 N004 0 -10
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\noobe\Documents\LTspiceXVII\lib\cmp\standard.mos
+.include NMOSPLEASE.MOD
+.include PMOS.MOD
+.op
+.backanno
+.end
